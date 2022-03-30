@@ -1,0 +1,18 @@
+
+<div style="position: relative; margin-top: 20%; background-color: #ffd4d4;">
+     <div class="flex flex-wrap -m-3 gap-9" style="margin-left: 12%;">
+        <ng-container *ngFor="let item of desc ;let i=index;">
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div  class="text-center" style="padding: 15%;">
+                <i class={{desc[i].icon}}></i>
+                <p class="font-bold" style="margin-top: 2%;">
+                    {{desc[i].title}}
+                </p>
+                <p style="margin-top: 2%;">
+                    {{desc[i].desc}}
+                </p>
+            </div>
+        </div>
+        </ng-container>
+      </div>
+</div>

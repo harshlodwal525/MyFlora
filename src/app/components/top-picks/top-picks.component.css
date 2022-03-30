@@ -1,0 +1,19 @@
+.maindiv{
+    position: relative;
+    left: 20px;
+    margin-top: 40px;
+    }
+    .heading{
+            font-size: x-large;
+            font-weight: bold;
+    }
+    
+    .link{
+        text-decoration: underline;
+    }
+    
+    .card{
+    position: relative;
+    height: 300px; 
+    width: 200px;
+    }

@@ -1,0 +1,31 @@
+<div class="maindiv">
+
+  <div style="margin-left: 2%;">
+    <p class="heading"> FLORA's TOP PICK THIS WEEK</p>
+  </div>
+
+  <div style="margin-left: 2%; margin-bottom: 1%;">
+    <a class="link" href=""> Shop Now </a>
+  </div>
+
+
+  <div class="grid grid-cols-6 gap-1 justify-items-center">
+
+    <ng-container *ngFor="let item of product ;let i=index;">
+      <div class="card ">
+        <img class="w-full"
+          src={{product[i].img}}
+          alt="Sunset in the mountains" height="40px">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{product[i].title}}</div>
+          <p class="text-gray-700 text-base">
+            {{product[i].desc}}
+          </p>
+          <p class="font-bold"><i class="fas fa-rupee-sign"></i> {{product[i].price}}</p>
+          <button class="rounded-none bg-black text-white text-xs justify-self-center" style="padding: 8%;"> Shop Now
+          </button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

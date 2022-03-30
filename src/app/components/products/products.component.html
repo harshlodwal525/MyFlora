@@ -1,0 +1,33 @@
+<div class="maindiv" style="margin-left: 2%;">
+
+    <div> 
+      <p class="font-bold text-xl"> PRODUCTS </p>
+    </div>
+  
+    <div>
+      <a class="underline" href=""> Shop Now </a>
+    </div>
+  
+  
+    <div class="grid grid-cols-3" style="margin-top: 2%;">
+
+    
+    
+  
+       <ng-container *ngFor="let item of product ;let i=index;"> 
+          <div class="card">
+          <img style="justify-content: center;" 
+            src={{product[i].img}}
+            alt="Sunset in the mountains" height="60%" width="90%">
+            
+            <div style="position: relative; top: -15%;" class="font-bold  text-center text-white">
+                <p>
+                   {{product[i].title}}
+                </p>
+            </div>
+        </div>
+        </ng-container> 
+    </div>
+  </div> 
+
+  

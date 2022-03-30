@@ -1,0 +1,41 @@
+.imgdiv{
+    position: relative;
+    margin-top: 3%;
+    left: 7%;
+
+}
+.img{
+    width: 63%;
+    height: 115%;
+}
+
+.large{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.mid{
+    font-size: large;
+    font: weight 900px;;
+}
+
+.last{
+    font-size: small;
+}
+
+
+.textwithimg{
+    margin-right: 200px;
+    height: 600px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+  }
+  
+
+  .textdiv{
+position: relative;
+top: 250px;
+  }
